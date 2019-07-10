@@ -22,6 +22,6 @@ def result = slurper.parseText('{"person":{"name":"Guillaume","age":33,"pets":["
 assert result.person.name == "Guillaume"
 assert result.person.age  == 33
 assert result.person.pets[0]  == "dog"
-assert result.person.pets[1]  == "cat sadsajkdhksajd"
+assert result.person.pets[1]  == "cat 123"
 
 
